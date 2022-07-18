@@ -210,3 +210,33 @@ footer a{
 /* -------------------------
         footer Css end 
 ----------------------------*/
+
+/* -------------------------
+        responsive css
+----------------------------*/
+
+@media screen and (max-width: 992px) {
+    .banner{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-content: center;
+    }
+}
+@media screen and (max-width: 992px) {
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-content: center;
+    }
+}
+
+
+
